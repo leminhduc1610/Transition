@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.border1
+{height: 500px;
+width: 500px;
+margin: 50px;
+ border: 1px solid #ccc}
+.image1{
+	height: 200px;
+	width: 200px;
+	 margin: 100px auto; 
+	background-color: yellowgreen; transform: translate(0) scale(1) rotate(45deg)
+}
+.border2
+{height: 500px;
+width: 500px;
+margin: 50px; perspective: 500px;
+ border: 1px solid #ccc}
+.image2{
+	height: 200px;
+	width: 200px;
+	 margin: 100px auto;  
+	background-color: yellowgreen
+}
+.image2:hover{ transform: translate(100px) scale(2) rotateY(60deg) skewY(30deg); transition:  all 3s linear .2s}
